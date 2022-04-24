@@ -13,7 +13,7 @@ function showResults(games) {
         let gameRating = games[i].rating;
         let gameTags = games[i].tags.length;
 
-        displayGamesDiv.innerHTML += `<div class="gameInfo"><p></p>Name: ${gameName}<p></p>Rating: ${gameRating}<p>Number of tags: ${gameTags}</p></div>`
+        displayGamesDiv.innerHTML += `<div class="gameInfo"><p>Name: ${gameName}</p><p>Rating: ${gameRating}</p><p>Number of tags: ${gameTags}</p></div>`
         if(i===7){
             break
         }        
